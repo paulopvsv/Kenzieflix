@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "IBM Plex Sans";
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.logo {
+    display: flex;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+}
+
+h1 {
+    color: white;
+    font-family: "IBM Plex Sans";
+    font-weight: 600;
+}
+
+.filha {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    align-items: center;
+}
+
+.neta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "IBM Plex Sans";
+    color: #9c9c9c;
+    width: 160px;
+    
+}
+
+#avatar:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+button {
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #000000;
+    color: white;
+    font-family: "IBM Plex Sans";
+    font-weight: 500;
+    padding: 10px 30px;    
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.add {
+    width: 160px;
+    height: 160px;
+    background-color: #202020;
+    
+}
+
+.add img {
+    margin-top: 30%;
+    margin-left: 30%;
+}
+
